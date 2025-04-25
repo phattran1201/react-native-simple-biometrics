@@ -1,11 +1,13 @@
 {
   "name": "react-native-simple-biometrics",
-  "version": "1.5.2",
-  "description": "biometrics interface for react native",
-  "source": "./src/index.tsx",
-  "main": "./lib/commonjs/index.js",
-  "module": "./lib/module/index.js",
-  "exports": {
+  "version": "1.5.3",
+  "description": "test",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+    "exports": {
     ".": {
       "import": {
         "types": "./lib/typescript/module/src/index.d.ts",
